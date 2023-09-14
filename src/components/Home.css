@@ -1,0 +1,101 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+}
+input {
+  
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+ 
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  color: #fff;
+}
+.icon-container {
+  display: flex;
+  position: relative;
+
+  margin-top: auto; /* Push the icons to the bottom */
+  margin-bottom: 20px; /* Add some spacing */
+  justify-content: center; /* Center the icons horizontally */
+}
+.icon-container svg {
+  color: white; /* Set the icon color to white */
+  margin: 0 10px; /* Add spacing between icons */
+  font-size: 30px; /* Adjust the icon size as needed */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: color 0.2s; /* Add a smooth color transition on hover */
+
+}
+.icon-container svg:hover {
+  color: #ddd; /* Change the icon color on hover (you can adjust the color) */
+}
+.google-signin-container {
+  width: 50%;
+  height: 100%;
+  flex: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #0074D9;
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.signin-form-container {
+  width: 35%; /* Adjust the width of the form container as needed */
+  position: absolute;
+  max-width: 400px;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center the content horizontally */
+  padding: 20px;
+  background-color: #fff; /* Background color for the form container */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.links-container {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .google-signin-container,
+  .signin-form-container {
+    width: 100%;
+  }
+}
+.button{
+  display: inline-block;
+  width: 100%;
+  padding: 3px 5px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+   color: #fff;
+  background-color: #0074D9;
+  border: none;
+  border-radius: 15px;
+
+}
+
