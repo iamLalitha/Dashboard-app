@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import './Home.css';
 
 
+
 function Home() {
     const navigate =useNavigate();
     const [registrationSuccess, setRegistrationSuccess] = useState(false);
@@ -59,7 +60,7 @@ function Home() {
           <p>
             <a href='/forgot-password' style={{color:'blue'}}> Forgot Password?</a>
           </p>
-          <button type='submit' className='button' onSuccess={handleRegisterSuccess}>Sign In</button>
+          <button type='submit' className='button'>Sign In</button>
         </form>
 
         <div>

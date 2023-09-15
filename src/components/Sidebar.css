@@ -1,0 +1,36 @@
+/* Dashboard.css */
+.sidebar {
+  
+    width: 200px;
+    background-color: #0074D9;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .options {
+    margin-top: 20px;
+    margin-left: 20px;;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  .bottom-options {
+    margin-top: auto;
+    margin-left: 20px;
+  }
+  
