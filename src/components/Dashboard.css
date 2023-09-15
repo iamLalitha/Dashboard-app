@@ -6,6 +6,7 @@
   .dashboard-content {
     flex-grow: 1; /* Allow the content area to grow and take up remaining space */
     padding: 20px;
+  
   }
   
   .dashboard-header {
@@ -55,7 +56,7 @@
     flex: 1; /* Each card takes equal width */
     max-width: calc(25% - 20px); /* Set max-width for responsiveness */
     text-align: center;
-  
+   
   }
   
   .dashboard-card h3 {
@@ -74,4 +75,20 @@
     
      padding: 0 20px;  /* Add spacing between cards */
   }
+  .inline-content {
+    /* Style the inline container */
+    display: flex;
+    align-items: center;
+  }
   
+  .inline-content p {
+    /* Style the numbers */
+    margin-right: 10px; /* Add some spacing between the number and the percent image */
+  }
+  
+  .inline-content img {
+    /* Style the percent image */
+    width: 50px;
+    height: 50px;
+    /* Add any other styles you need */
+  }

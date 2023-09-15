@@ -7,6 +7,10 @@ import ActivitiesCard from './ActivitiesCard';
 import TopProductsCard from './TopProductsCard';
 import AddProfileCard from './AddProfileCard';
 import  revenue from '../revenue.png';
+import tags from '../tags.png';
+import likes from '../likes.png';
+import users from '../users.png';
+import percent from '../percent.png';
 
 function Dashboard() {
   return (
@@ -29,19 +33,34 @@ function Dashboard() {
           <div className="dashboard-card">
             <img src={revenue} alt='revenue' style={{width:'50px',height:'50px'}} />
             <h3>Total Revenues</h3>
-            <p>$10,000</p>
+            <div className='inline-container'>
+            <p>$10,000 </p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+            </div>
           </div>
           <div className="dashboard-card">
+          <img src={tags} alt='revenue' style={{width:'50px',height:'50px'}} />
             <h3>Total Transactions</h3>
-            <p>500</p>
+            <div className='inline-container'>
+             <p>500</p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+          </div>
           </div>
           <div className="dashboard-card">
+          <img src={likes} alt='revenue' style={{width:'50px',height:'50px'}} />
             <h3>Total Likes</h3>
-            <p>1,000</p>
+            <div className='inline-container'>
+             <p>1,000</p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+          </div>
           </div>
           <div className="dashboard-card">
+          <img src={users} alt='revenue' style={{width:'50px',height:'50px'}} />
             <h3>Total Users</h3>
+            <div className='inline-container'>
             <p>5,000</p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+          </div>
           </div>
         </div>
         <ActivitiesCard />

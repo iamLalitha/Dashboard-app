@@ -39,7 +39,7 @@ const AddProfileCard = () => {
 
   const handleDoneClick = () => {
     setShowProfile(true);
-    handleCloseForm();
+    setFormOpen(false); // Close the form
   };
 
   return (
@@ -49,24 +49,25 @@ const AddProfileCard = () => {
           <h4>{basicData.name}</h4>
           <div className="profile-info-row">
             <p>
-              <BsWhatsapp /> {basicData.phone}
+              <span style={{color:'green'}}><BsWhatsapp /> </span>{basicData.phone}
             </p>
             <p>
-              <FaInstagramSquare /> {socialData.instagram}
+              <span style={{color:'#EA3C53'}}><FaInstagramSquare /></span> {socialData.instagram}
             </p>
           </div>
           <div className="profile-info-row">
             <p>
-              <FiMail /> {basicData.email}
+             <span style={{color:'purple'}}><FiMail /></span>  {basicData.email}
             </p>
             <p>
-              <AiFillYoutube /> {socialData.youtube}
+             <span style={{color:'#EA3C53'}}><AiFillYoutube /></span>  {socialData.youtube}
             </p>
           </div>
         </div>
       ) : (
         <div className="add-profile-button" onClick={handleOpenForm}>
           <span style={{ fontSize: '50px' }}>+</span>
+          <p>Add Profile</p>
         </div>
       )}
       {isFormOpen && (
@@ -123,6 +124,7 @@ const AddProfileCard = () => {
 };
 
 export default AddProfileCard;
+
 
 
 
