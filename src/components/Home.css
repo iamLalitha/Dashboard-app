@@ -1,4 +1,4 @@
-/* Home.css */
+
 .home-container {
   display: flex;
   justify-content: space-between;
@@ -25,20 +25,19 @@ input {
   display: flex;
   position: relative;
 
-  margin-top: auto; /* Push the icons to the bottom */
-  margin-bottom: 20px; /* Add some spacing */
-  justify-content: center; /* Center the icons horizontally */
+  margin-top: auto; 
+  margin-bottom: 20px; 
+  justify-content: center; 
 }
 .icon-container svg {
-  color: white; /* Set the icon color to white */
-  margin: 0 10px; /* Add spacing between icons */
-  font-size: 30px; /* Adjust the icon size as needed */
-  cursor: pointer; /* Add a pointer cursor on hover */
-  transition: color 0.2s; /* Add a smooth color transition on hover */
+  color: white; 
+  margin: 0 10px; 
+  font-size: 30px; 
+  transition: color 0.2s;
 
 }
 .icon-container svg:hover {
-  color: #ddd; /* Change the icon color on hover (you can adjust the color) */
+  color: #ddd; 
 }
 .google-signin-container {
   width: 50%;
@@ -57,7 +56,7 @@ input {
 }
 
 .signin-form-container {
-  width: 35%; /* Adjust the width of the form container as needed */
+  width: 35%; 
   position: absolute;
   max-width: 400px;
   top: 50%;

@@ -5,7 +5,7 @@ import {AiFillGithub} from 'react-icons/ai';
 import {AiFillTwitterCircle} from 'react-icons/ai';
 import {AiFillLinkedin} from 'react-icons/ai';
 import {IoLogoDiscord} from 'react-icons/io5';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
 
 
@@ -60,7 +60,8 @@ function Home() {
           <p>
             <a href='/forgot-password' style={{color:'blue'}}> Forgot Password?</a>
           </p>
-          <button type='submit' className='button'>Sign In</button>
+          <Link to="/dashboard" > <button type='submit' className='button'>Sign In</button></Link>
+         
         </form>
 
         <div>

@@ -1,20 +1,20 @@
 .dashboard {
-    display: flex; /* Use flexbox to create a horizontal layout */
-    height: 100vh; /* Make the dashboard fill the full viewport height */
+    display: flex; 
+    height: 100vh; 
   }
   
   .dashboard-content {
-    flex-grow: 1; /* Allow the content area to grow and take up remaining space */
+    flex-grow: 1; 
     padding: 20px;
   
   }
   
   .dashboard-header {
-    display: flex; /* Use flexbox for header layout */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    padding: 0 20px; /* Add padding to separate from sidebar */
+    padding: 0 20px; 
   }
   
   .dashboard-header h2 {
@@ -22,7 +22,7 @@
   }
   
   .dashboard-controls {
-    display: flex; /* Use flexbox for controls layout */
+    display: flex; 
     align-items: center;
   }
   
@@ -44,25 +44,24 @@
   .dashboard-cards {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Allow cards to wrap to the next row */
-    gap: 20px; /* Add spacing between cards */
+    flex-wrap: wrap; 
+    gap: 20px; 
   }
   
   .dashboard-card {
-    background-color:white; /* Card background color */
-    padding: 20px;
-    border-radius: 15px;
+    background-color:white; 
+    border-radius: 30px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
     flex: 1; /* Each card takes equal width */
     max-width: calc(25% - 20px); /* Set max-width for responsiveness */
-    text-align: center;
+    
    
   }
   
-  .dashboard-card h3 {
+  /* .dashboard-card h3 {
     font-size: 18px;
     margin-bottom: 10px;
-  }
+  } */
   
   .dashboard-card p {
     font-size: 24px;
@@ -70,25 +69,24 @@
     margin: 0;
   }
   .lower-cards {
-    display: flex; /* Make children align horizontally */
+    display: flex; 
     justify-content: space-between;
-    
-     padding: 0 20px;  /* Add spacing between cards */
+    padding: 0 20px; 
   }
   .inline-content {
-    /* Style the inline container */
+    
     display: flex;
     align-items: center;
   }
   
   .inline-content p {
-    /* Style the numbers */
-    margin-right: 10px; /* Add some spacing between the number and the percent image */
+
+    margin-right: 10px; 
   }
   
   .inline-content img {
-    /* Style the percent image */
+  
     width: 50px;
     height: 50px;
-    /* Add any other styles you need */
+   
   }

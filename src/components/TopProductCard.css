@@ -1,4 +1,4 @@
-/* TopProductCard.css */
+
 
 .top-products-card {
   background-color: white;
@@ -7,7 +7,7 @@
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
   width: calc(50% - 10px);
 
-  flex-direction: column; /* Arrange children in a column layout */
+  flex-direction: column; 
   
   margin-top: 20px;
   margin-right: 20px;
@@ -37,7 +37,7 @@
 .pielegend {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align the legends in the center */
+  align-items: center; 
  
   
 }
@@ -49,7 +49,7 @@
 } */
 .chart-legend-container {
   
-  flex-direction: row; /* Arrange chart and legends side by side */
+  flex-direction: row; 
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;

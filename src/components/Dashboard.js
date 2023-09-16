@@ -32,34 +32,34 @@ function Dashboard() {
         <div className="dashboard-cards">
           <div className="dashboard-card">
             <img src={revenue} alt='revenue' style={{width:'50px',height:'50px'}} />
-            <h3>Total Revenues</h3>
+            <h4 style={{marginLeft:'15px'}}>Total Revenues</h4>
             <div className='inline-container'>
-            <p>$10,000 </p>
-            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+            <p style={{fontSize:'20px', marginLeft:'15px'}}>$10,000 </p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px', marginLeft:'130px'}} />
             </div>
           </div>
           <div className="dashboard-card">
           <img src={tags} alt='revenue' style={{width:'50px',height:'50px'}} />
-            <h3>Total Transactions</h3>
+            <h4 style={{marginLeft:'15px'}}>Total Transactions</h4>
             <div className='inline-container'>
-             <p>500</p>
-            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+             <p style={{fontSize:'20px', marginLeft:'15px'}}>500</p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px', marginLeft:'130px'}} />
           </div>
           </div>
           <div className="dashboard-card">
           <img src={likes} alt='revenue' style={{width:'50px',height:'50px'}} />
-            <h3>Total Likes</h3>
+            <h4 style={{marginLeft:'15px'}}>Total Likes</h4>
             <div className='inline-container'>
-             <p>1,000</p>
-            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+             <p style={{fontSize:'20px', marginLeft:'15px'}}>1,000</p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px', marginLeft:'130px'}} />
           </div>
           </div>
           <div className="dashboard-card">
           <img src={users} alt='revenue' style={{width:'50px',height:'50px'}} />
-            <h3>Total Users</h3>
+            <h4 style={{marginLeft:'15px'}}>Total Users</h4>
             <div className='inline-container'>
-            <p>5,000</p>
-            <img src={percent} alt='revenue' style={{width:'50px',height:'50px'}} />
+            <p style={{fontSize:'20px', marginLeft:'15px'}}>5,000</p>
+            <img src={percent} alt='revenue' style={{width:'50px',height:'50px', marginLeft:'130px'}} />
           </div>
           </div>
         </div>
