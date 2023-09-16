@@ -54,7 +54,10 @@ input {
   text-align: center;
   justify-content: center;
 }
-
+.google-signin-container h1 {
+  color: white;
+  margin-top: auto; 
+}
 .signin-form-container {
   width: 35%; 
   position: absolute;
